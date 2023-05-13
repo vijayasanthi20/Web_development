@@ -1,3 +1,5 @@
-This file is edited in remote 
 
+This file is edited in remote 
 create conflicts 
+editing locally 
+
