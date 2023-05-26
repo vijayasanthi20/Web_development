@@ -15,7 +15,7 @@ public static void main(String[] args) {
 	fc.buy();
 	
 }
-
+// non static method will be accessed via instances variable 
 private void buy() {
 	
 	System.out.println("Hi");
