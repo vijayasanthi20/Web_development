@@ -13,40 +13,44 @@ public class HomeWork {
 		HomeWork hw =new HomeWork();
 		
 		hw.homework1();
+		System.out.println(" ");
 		hw.homework2();
+		System.out.println(" ");
 		hw.homework3();
+		System.out.println(" ");
 		hw.homework4();
+		System.out.println(" ");
 		hw.homework5();
+		System.out.println(" ");
 		hw.homework6();
+		System.out.println(" ");
 		hw.homework7();
 
 	}
 
 
 	private void homework7() {
-		int num1=1;
-		int num2=2;
-		int num3=3;
-		while(num1<=5) {
-		System.out.print(num1+"*"+num2+"*"+num3+" ");
-		num1=num1+1;
-		num2=num2+1;
-		num3=num3+1;
+		int num=1;
+	
+		while(num<=5) {
+		System.out.print(num+"*"+(num+1)+"*"+(num+2)+" ");
+		num=num+1;
+	
 		}
-		System.out.println(" ");
+		
 		
 	}
 
 
 	private void homework6() {
 		int num=1;
-		int inc=2;
+		
 		while(num<=5) {
-		System.out.print(num+"*"+inc+" ");
+		System.out.print(num+"*"+(num+1)+" ");
 		num=num+1;
-		inc=inc+1;
+		
 		}
-		System.out.println(" ");
+
 		
 		
 	}
@@ -60,28 +64,39 @@ public class HomeWork {
 		num=num+inc;
 		inc=inc+1;
 		}
-		System.out.println(" ");
-		
+
 	}
 
 
 	private void homework4() {
-		int num=3;
-		while(num<=15) {
-		System.out.print(num+" ");
-		num=num+3;
-		}
-		System.out.println(" ");		
+//		int num=3;
+//		while(num<=15) {
+//		System.out.print(num+" ");
+//		num=num+3;
+//		}
+		int num=1;
+		while(num<=5) {
+			System.out.print(num*3+" ");
+			num=num+1;
+			}
+				
+			
 	}
 
 
 	private void homework3() {
-		int num=2;
-		while(num<=10) {
-		System.out.print(num+" ");
-		num=num+2;
+//		int num=2;
+//		while(num<=10) {
+//		System.out.print(num+" ");
+//		num=num+2;
+//		}
+		
+		int num=1;
+		while(num<=5) {
+		System.out.print(num*2+" ");
+		num=num+1;
 		}
-		System.out.println(" ");
+	
 	}
 
 
@@ -96,7 +111,7 @@ public class HomeWork {
 		
 			
 		}
-		System.out.println(" ");
+
 		
 	}
 	
@@ -108,7 +123,7 @@ public class HomeWork {
 		num=num+2;
 		
 	}
-		System.out.println(" ");
+	
 
 	}
 
