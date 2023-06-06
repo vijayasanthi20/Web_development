@@ -12,6 +12,7 @@ public class AdditonMultiplicationOfFirst5Numbers {
 	
 	
 	private void multiplication() {
+		//factorial of 1st 5 number
 		int num=1;
 		int total=1;
 		while(num<=5) {
