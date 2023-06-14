@@ -9,6 +9,7 @@ Harish_Parents harish_Parents=new Harish_Parents();
 			System.out.println("Door no is "+harish_Parents.doorNo);
 			harish_Parents.hobby();
 			harish_Parents.give_invitation();
+			harish_Parents.chooseBride();
 	}
 	
 	void hobby()
@@ -27,4 +28,11 @@ Harish_Parents harish_Parents=new Harish_Parents();
 	    System.out.println("harish marriage");
 	  }
 
+	//Method Overriding: 
+	 
+	  
+	  protected void chooseBride()
+	  {
+	    System.out.println("Status Education ");
+	  }
 }
