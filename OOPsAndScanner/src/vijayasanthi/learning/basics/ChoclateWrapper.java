@@ -17,17 +17,18 @@ public class ChoclateWrapper {
 		System.out.println("Enter  no.of chocolates");
 		int num=sc.nextInt();
 		
-		int actual_chocolate=num;
+		int total=num;
 		
 		
-		int rem_wrapper=15;
+		int rem_wrapper=0;
 		int rem=0;
-		int total=0;
+		int exchangedChocs=0;
 		while(num>=3) {
 			
 			rem_wrapper=num/3;
 			System.out.println("chocolates from wrapper "+rem_wrapper);
-			
+			total=total+rem_wrapper;
+			System.out.println("total chocolates now "+total);
 			if(num % 3==0) {
 				rem=0;
 				
@@ -38,11 +39,11 @@ public class ChoclateWrapper {
 			num=rem_wrapper+rem;
 			System.out.println("total no.of remaining chocolates  "+num);
 			System.out.println("---------------");
-			total=total+rem_wrapper;
+			exchangedChocs=exchangedChocs+rem_wrapper;
 			
 		}
 		
-		System.out.println("total is "+(total+actual_chocolate));
+		System.out.println("total is "+(total));
 	}
 
 }
