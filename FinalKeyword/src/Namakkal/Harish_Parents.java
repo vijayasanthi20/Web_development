@@ -1,6 +1,6 @@
 package Namakkal;
 
-public class Harish_Parents {
+public final class Harish_Parents {
 	int doorNo =100;
 	private int age = 20;
 	protected int income=40000;
@@ -32,7 +32,7 @@ Harish_Parents harish_Parents=new Harish_Parents();
 	//Method Overriding: 
 	 
 	  
-	  public void chooseBride()
+	  protected final void chooseBride()
 	  {
 	    System.out.println("Status Education ");
 	  }
