@@ -1,6 +1,13 @@
 package Trichy;
 
 public class Bharani implements Govt , FranceGovt {
+	{
+	System.out.println("HI ");
+	}
+	
+	static {
+		System.out.println("switch on lights ");
+		}
 
 	public static void main(String[] args) {
 		Bharani bb=new Bharani();

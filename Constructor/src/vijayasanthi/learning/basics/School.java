@@ -23,17 +23,23 @@ public class School {
 		System.out.println(" how are you ");
 	}
 
+	public School() {
+		System.out.println(" No arg/ zero args constructor ");
+	}
+
 	public static void main(String[] args) {
 		School student1 = new School("Bharani", 100);
+		 student1.participate();
 	    School student2 = new School("Santhiya", 101);
 	    School student3 = new School("viji", 102);
 	    School student4 = new School("viji","santhi", 104);
+	    School student5 = new School();
 	    
 //	    System.out.println(student1.name);
 //	    System.out.println(student2.name);
 //	    System.out.println(student3.name);
 	    
-	    student1.participate();
+	   
 	    student3.write_exam();
 	    student4.play();
 		
